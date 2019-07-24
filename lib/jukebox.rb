@@ -77,15 +77,16 @@ def exit_jukebox
 
 end
 
-def jukeboxing(songs)
+def run(songs)
 
 help
 
 puts "Please enter a command:"
-loopcount = 0
 
-input = gets.chomp
+
+#input = gets.chomp
 while input != "exit"
+  input = gets.chomp
 if input == "list"
   list(songs)
   input = nil
