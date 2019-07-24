@@ -48,7 +48,7 @@ puts "Please enter a song name or number:"
 
 track_counter = 0
 playing = false
-input = 2#gets.chomp
+input = gets.chomp
 
 songs.each_with_index do |item, index|
 
