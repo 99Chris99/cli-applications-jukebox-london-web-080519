@@ -64,7 +64,7 @@ end
 end
 
 if playing == false
-      puts "Invalid input, please tray again"
+      puts "Invalid input, please try again"
 end
 
 
