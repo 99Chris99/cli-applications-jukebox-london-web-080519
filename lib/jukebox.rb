@@ -83,6 +83,7 @@ help
 
 puts "Please enter a command:"
 
+input = nil
 
 #input = gets.chomp
 while input != "exit"
