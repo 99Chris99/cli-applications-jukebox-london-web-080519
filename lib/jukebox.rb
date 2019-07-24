@@ -44,7 +44,7 @@ end
 
 def play(songs)
 
-puts "Please enter a song name or number:"
+#puts "Please enter a song name or number:"
 
 track_counter = 0
 playing = false
@@ -53,7 +53,6 @@ input = gets.chomp
 songs.each_with_index do |item, index|
 
 track_no = (index += 1)
-
 
 if input == track_no || input == item
 puts "Playing #{item}"
