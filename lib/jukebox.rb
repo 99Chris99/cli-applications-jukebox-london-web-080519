@@ -76,3 +76,33 @@ def exit_jukebox
   puts "Goodbye"
 
 end
+
+def run
+
+help
+
+puts "Please enter a command:"
+
+
+
+while input != "exit"
+input = gets.chomp
+if input == "list"
+  list
+elsif input == "help"
+  help
+elsif input == "play"
+  play
+elsif input == "exit"
+  exit_jukebox
+  exit
+end
+
+exit
+
+end
+puts "I accept the following commands:"
+puts "- help : displays this help message"
+puts "- list : displays a list of songs you can play"
+puts "- play : lets you choose a song to play"
+puts "- exit : exits this program"
