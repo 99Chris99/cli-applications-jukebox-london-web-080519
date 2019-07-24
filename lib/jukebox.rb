@@ -62,9 +62,9 @@ end
 
 end
 
-#if playing == false
-#      puts "Invalid input, please tray again"
-#end
+if playing == false
+      puts "Invalid input, please tray again"
+end
 
 
 end
