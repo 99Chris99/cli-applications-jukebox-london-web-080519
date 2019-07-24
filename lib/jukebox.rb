@@ -53,8 +53,9 @@ input = gets.chomp
 songs.each_with_index do |item, index|
 
 track_no = (index += 1)
+track_no_a = "#{track_no}"
 
-if input == track_no || input == item
+if input == track_no_a or input == item
 puts "Playing #{item}"
 playing = true
 
